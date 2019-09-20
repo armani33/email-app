@@ -57,6 +57,8 @@ $green: #00FFB7;
         border-radius: 3px;
         text-indent: 15px;
         font-size: 13px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
       }
       input[type=submit]{
         margin-top: 45px;
@@ -68,6 +70,8 @@ $green: #00FFB7;
         border-radius: 3px;
         text-indent: 15px;
         font-size: 13px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
       }
     }
   }
