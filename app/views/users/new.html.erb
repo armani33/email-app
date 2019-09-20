@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="content">
+    <div class="form-container">
+
+      <%= form_for @user, url: users_create_path, method: :post do |f| %>
+        Name: <%= f.text_field :name, id: "user-name", :placeholder => "Enter your name" %>
+        Email: <%= f.text_field :email, id: "user-email", :placeholder => "Enter your email" %>
+        <%= f.submit value: "Submit" %>
+      <% end %>
+
+    </div>
+  </div>
+</div>
