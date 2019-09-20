@@ -1,3 +1,74 @@
-// Place all the styles related to the users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap');
+
+// Define fonts for website
+
+$roboto: 'Roboto', sans-serif;
+$reem-kufi: 'Reem Kufi', sans-serif;
+//colors
+$green: #00FFB7;
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 45%;
+      margin-bottom: 80px;
+    }
+    margin: 5px;
+    .form-container{
+      margin-bottom: 100px;
+      width: 100%
+      form{
+        display: flex;
+        flex-direction: column;
+      }
+      .inputt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: $roboto;
+        color: black;
+      }
+      input[type=text]{
+        margin-top: 5px;
+        width: 330px;
+        height: 33px;
+        background-color: #FAFAFA;
+        border: 1px solid #E6E6E6;
+        border-radius: 3px;
+        text-indent: 15px;
+        font-size: 13px;
+      }
+      input[type=submit]{
+        margin-top: 45px;
+        width: 330px;
+        height: 37px;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        text-indent: 15px;
+        font-size: 13px;
+      }
+    }
+  }
+}
