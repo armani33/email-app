@@ -16,7 +16,6 @@ $green: #00FFB7;
 }
 
 .container{
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,14 +26,15 @@ $green: #00FFB7;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
     img{
-      width: 45%;
-      margin-bottom: 80px;
+      margin-top: 150px;
+      width: 60%;
     }
-    margin: 5px;
+    margin: 25px;
     .form-container{
-      margin-bottom: 100px;
-      width: 100%
+      margin-top: 300px;
+      width: 100%;
       form{
         display: flex;
         flex-direction: column;
@@ -44,32 +44,32 @@ $green: #00FFB7;
         flex-direction: column;
         align-items: flex-start;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 28px;
         font-family: $roboto;
         color: black;
       }
       input[type=text]{
         margin-top: 5px;
-        width: 330px;
-        height: 33px;
+        width: 800px;
+        height: 80px;
         background-color: #FAFAFA;
         border: 1px solid #E6E6E6;
         border-radius: 3px;
         text-indent: 15px;
-        font-size: 13px;
+        font-size: 33px;
         -webkit-appearance: none;
         -moz-appearance: none;
       }
       input[type=submit]{
         margin-top: 45px;
-        width: 330px;
-        height: 37px;
+        width: 800px;
+        height: 85px;
         background-color: black;
         color: white;
         border: 1px solid black;
         border-radius: 3px;
         text-indent: 15px;
-        font-size: 13px;
+        font-size: 33px;
         -webkit-appearance: none;
         -moz-appearance: none;
       }

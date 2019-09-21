@@ -2,7 +2,7 @@
   <div class="content">
     <%= image_tag('Logo/Logo.png', class: "Logo") %>
     <div class="form-container">
-      <%= form_for @user, url: users_create_path, method: :post do |f| %>
+      <%= form_for @user, url: users_create_path, autocomplete: :off, method: :post do |f| %>
         <div class="inputt">Name: <%= f.text_field :name, id: "user-name", :placeholder => "Enter your name" %></div>
         <div class="inputt">Email: <%= f.text_field :email, id: "user-email", :placeholder => "Enter your email" %></div>
         <%= f.submit value: "Submit" %>
